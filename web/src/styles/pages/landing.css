@@ -5,41 +5,50 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+  }
+  
 #page-landing .content-wrapper {
     position: relative;
     width: 100%;
     max-width: 1100px;
     height: 100%;
-    max-width: 680px;
+    max-height: 680px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: space-between;
-    background: url('../../images/landing.svg') no-repeat 80% center;
+    justify-content: space-between;  
+    background: url('../../images/landing.svg') no-repeat 80% center ;
 }
 
 #page-landing .content-wrapper main {
     max-width: 350px;
 }
 
+#page-landing .content-wrapper img {
+    position: relative;
+    top: 54px;
+}
+
 #page-landing .content-wrapper main h1 {
+    position: relative;
     font-size: 76px;
     font-weight: 900;
     line-height: 70px;
+    bottom: 54px;
 }
 
 #page-landing .content-wrapper main p {
+    position: relative;
     margin-top: 40px;
     font-size: 24px;
     line-height: 34px;
+    bottom: 54px;
 }
-
+  
 .content-wrapper .location {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 54px;
     font-size: 24px;
     line-height: 34px;
     display: flex;
@@ -50,22 +59,22 @@
 .content-wrapper .location strong {
     font-weight: 800;
 }
-
+  
 .content-wrapper .enter-app {
     position: absolute;
     right: 0;
-    bottom: 0;
-    width: 80px;
-    height: 80px;
-    background: #ffd666;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.2s;
+    bottom: 34px;
+    
+        width: 80px;
+        height: 80px;
+        background: #ffd666;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.2s;
 }
-
+  
 .content-wrapper .enter-app:hover {
     background: #96FEFF;
-
 }
