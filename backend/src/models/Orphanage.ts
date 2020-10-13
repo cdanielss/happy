@@ -18,13 +18,13 @@ export default class Orphanage {
     about: string;
     
     @Column()
-    instruction: string;
+    instructions: string;
     
     @Column()
     opening_hours: string;
     
     @Column()
-    open_weekends: boolean;
+    open_on_weekends: boolean;
 
 
 }
