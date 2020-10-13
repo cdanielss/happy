@@ -26,4 +26,5 @@ app.listen(3000);
 /* 
 1 - yarn add typeorm sqlite3 
 2 - yarn typeorm migration:create -n create_orphanages       Faz as migracoes
+3 - yarn typeorm migration:run       Cria as tabelas das migrations
 */
