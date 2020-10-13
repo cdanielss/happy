@@ -4,7 +4,7 @@ import './database/connection';
 const app = express();
 app.use(express.json()); /* Para retornar Json */
 
-app.get('/', (req, res) => {
+app.post('/orphanages', (req, res) => {
     return res.send("Hello");
 });
 
@@ -27,4 +27,5 @@ app.listen(3000);
 1 - yarn add typeorm sqlite3 
 2 - yarn typeorm migration:create -n create_orphanages       Faz as migracoes
 3 - yarn typeorm migration:run       Cria as tabelas das migrations
+4 - DESFAZ TUDO     yarn typeorm migration:revert
 */
