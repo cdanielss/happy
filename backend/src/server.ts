@@ -25,4 +25,5 @@ app.listen(3000);
 /* Execucao do Banco de dados */
 /* 
 1 - yarn add typeorm sqlite3 
+2 - yarn typeorm migration:create -n create_orphanages       Faz as migracoes
 */
