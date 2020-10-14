@@ -1,4 +1,5 @@
-import Orphanage from '../models/Orphanage'
+import Orphanage from '../models/Orphanage';
+import imagesViews from './images_views'
 export default {
     render (orphanage: Orphanage) {
         return {
@@ -9,7 +10,8 @@ export default {
             longitude: orphanage.longitude,
             instructions: orphanage.instructions,
             opening_hours: orphanage.opening_hours,
-            open_on_weekends:orphanage.open_on_weekends
+            open_on_weekends:orphanage.open_on_weekends,
+            images: imagesViews.renderMany(orphanage.images)
         };
     },
 
