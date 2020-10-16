@@ -10,3 +10,9 @@ function App() {
 }
 
 export default App;
+
+/* Conectando front com back */
+/* 
+1 - yarn add axios
+
+*/
