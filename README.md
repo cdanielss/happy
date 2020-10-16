@@ -1,6 +1,6 @@
 ## Happy
 
-O Happy tem como missão auxiliar crianças carentes, facilitando a visita de voluntários a orfanatos. Desenvolvido durante a Next Level Week #3 da [Rocketseat](https://rocketseat.com.br/).
+O Happy tem como missão auxiliar crianças carentes, facilitando a visita de voluntários a orfanatos. Desenvolvido durante a 3° edição da Next Level Week.
 
 <br>
 
