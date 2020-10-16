@@ -33,7 +33,7 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 ### API (Back-end)
 
 ```bash
-# Entre na pasta server 
+# Entre na pasta backend 
 $ cd backend
 
 # Instale as dependências
